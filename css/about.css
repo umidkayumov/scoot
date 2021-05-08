@@ -1,0 +1,220 @@
+.about-hero {
+    background-image: linear-gradient(rgba(47, 59, 89, 0.75), rgba(47, 59, 89, 0.75)), url("../images/about-hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 100px;
+}
+.about-hero__heading::after {
+    content: "";
+    width: 234px;
+    height: 64px;
+    position: absolute;
+    top: 10px;
+    right: -8px;
+    display: block;
+    background-image: url(../images/about-hero-circle-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.about-hero__heading {
+    position: relative;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+.mobility {
+    position: relative;
+}
+.mobility::before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    right: -750px;
+    width: 579px;
+    height: 445px;
+    display: block;
+    background-image: url(../images/mobility-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.better {
+    position: relative;
+    margin-left: 60%;
+    margin-bottom: 120px;
+}
+.better::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: -750px;
+    width: 579px;
+    height: 445px;
+    display: block;
+    background-image: url(../images/better-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* Our values Section*/
+.our-values__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: 350px;
+}
+.our-values__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.our-values__item:not(:first-child) {
+    margin-left: 30px;
+}
+.our-values__heading {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+.our-tech {
+    position: relative;
+}
+.our-tech::before {
+    content: "";
+    width: 350px;
+    height: 350px;
+    display: block;
+    position: absolute;
+    top: -380px;
+    background-image: url(../images/our-tech.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.our-integrity {
+    position: relative;
+}
+.our-integrity::before {
+    content: "";
+    width: 350px;
+    height: 350px;
+    display: block;
+    position: absolute;
+    top: -357px;
+    background-image: url(../images/our-integrity.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.our-values__text {
+    width: 350px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+.our-community {
+    position: relative;
+    margin-bottom: 100px;
+}
+.our-community::before {
+    content: "";
+    width: 350px;
+    height: 350px;
+    display: block;
+    position: absolute;
+    top: -350px;
+    background-image: url(../images/our-community.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* Faqs */
+.faqs__heading {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: 64px;
+}
+.how-it-work__heading {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.78571px;
+    color: #495567;
+}
+.faqs_accordion  {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.how-it-work {
+    margin-bottom: 64px;
+}
+
+ul {
+    list-style: none;
+}
+.accordion__text {
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #495567;
+
+}
+#accordion button:focus {
+    border-radius: 0px;
+    outline: none;
+}
+#accordion button {
+    outline: none;
+    background-color: #F2F5F9;
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+}
+#accordion li {
+    border-bottom: none;
+    background-color: #F2F5F9;
+    padding: 32px 32px 32px 40px;
+}
+#accordion li:not(:last-child) {
+    margin-bottom: 16px;
+}
+#accordion button::after {
+    content: "\002B";
+    font-weight: 900;
+    font-size: 22px;
+    float: right;
+}
+#accordion {
+    width: 80%;
+    max-width: 800px;
+    min-width: 275px;
+    margin: auto;
+}
+.acc-item-content {
+    padding: 0px 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
